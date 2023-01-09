@@ -12,7 +12,7 @@ highlightButton.addEventListener("click", async () => {
 
 function highlightText() {
   const selectedText = window.getSelection().toString();
-  let innerText = window.getSelection().anchorNode.parentElement.innerHTML;
+  const innerText = window.getSelection().anchorNode.parentElement.innerHTML;
 
   const highlightedText = innerText.replace(
     selectedText,
