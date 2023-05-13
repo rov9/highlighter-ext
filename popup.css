@@ -1,9 +1,9 @@
 button {
-  padding: 10px;
   font-size: 14px;
+  background-color: yellow;
+  text-emphasis-color: rgb(255, 255, 255);
+  border-radius: 70%;
+  padding: 18px;
   border: none;
-  border-radius: 4px;
-  background-color: #edc126;
-  color: grey;
-  cursor: pointer;
+  font-weight:bolder;
 }
